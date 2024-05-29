@@ -8,17 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		2A8A51272C03446100D4A682 /* MuscleTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51262C03446100D4A682 /* MuscleTrackerApp.swift */; };
-		2A8A51292C03446100D4A682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51282C03446100D4A682 /* ContentView.swift */; };
 		2A8A512B2C03446200D4A682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8A512A2C03446200D4A682 /* Assets.xcassets */; };
 		2A8A512E2C03446200D4A682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8A512D2C03446200D4A682 /* Preview Assets.xcassets */; };
+		2A8A51352C03455900D4A682 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51342C03455900D4A682 /* BodyView.swift */; };
+		2A8A51372C0346D200D4A682 /* ViewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51362C0346D200D4A682 /* ViewsRow.swift */; };
+		2A8A51392C03475100D4A682 /* BodyViewDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51382C03475100D4A682 /* BodyViewDataService.swift */; };
+		2A8A513B2C034A5800D4A682 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A513A2C034A5800D4A682 /* HomeView.swift */; };
+		2A8A513D2C034E7700D4A682 /* Muscle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A513C2C034E7700D4A682 /* Muscle.swift */; };
+		2A8A513F2C034EDE00D4A682 /* MuscleArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A513E2C034EDE00D4A682 /* MuscleArray.swift */; };
+		2A8A51412C034F7900D4A682 /* MuscleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51402C034F7900D4A682 /* MuscleDataService.swift */; };
+		2A8A51432C03583100D4A682 /* MuscleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51422C03583100D4A682 /* MuscleButton.swift */; };
+		2A8A51452C0362C600D4A682 /* MuscleRecoveryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A51442C0362C600D4A682 /* MuscleRecoveryEditor.swift */; };
+		2AA96FB52C063F67008DB628 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FB42C063F67008DB628 /* ExercisesView.swift */; };
+		2AA96FB72C064BB9008DB628 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FB62C064BB9008DB628 /* PlusButton.swift */; };
+		2AA96FBA2C064C9E008DB628 /* ExercisesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FB92C064C9E008DB628 /* ExercisesRow.swift */; };
+		2AA96FBC2C064CF3008DB628 /* DotDotDotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FBB2C064CF3008DB628 /* DotDotDotButton.swift */; };
+		2AA96FBE2C06B281008DB628 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FBD2C06B281008DB628 /* ExerciseDetailView.swift */; };
+		2AA96FC02C06B5E2008DB628 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FBF2C06B5E2008DB628 /* Exercise.swift */; };
+		2AA96FC22C06B656008DB628 /* ExerciseDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FC12C06B656008DB628 /* ExerciseDataService.swift */; };
+		2AA96FC42C06B77A008DB628 /* IdentifiableIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA96FC32C06B779008DB628 /* IdentifiableIndex.swift */; };
+		2AAF137E2C05572500D60D4D /* MuscleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF137D2C05572500D60D4D /* MuscleView.swift */; };
+		2AAF13892C0566D300D60D4D /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF13882C0566D300D60D4D /* StatsView.swift */; };
+		2AAF138B2C0567FD00D60D4D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF138A2C0567FD00D60D4D /* SettingsView.swift */; };
+		2AAF138D2C05681200D60D4D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF138C2C05681200D60D4D /* ProfileView.swift */; };
+		2ABF94222C03F82D00D68A95 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF94212C03F82D00D68A95 /* TutorialView.swift */; };
+		2ABF94262C04E20500D68A95 /* WorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF94252C04E20500D68A95 /* WorkoutButton.swift */; };
+		2ABF94282C04E21200D68A95 /* ExercisesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF94272C04E21200D68A95 /* ExercisesButton.swift */; };
+		2ABF942C2C04E45900D68A95 /* InfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF942B2C04E45900D68A95 /* InfoButton.swift */; };
+		2ABF942F2C04E81700D68A95 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF942E2C04E81700D68A95 /* MenuView.swift */; };
+		2ABF94312C04E8D600D68A95 /* MenuOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF94302C04E8D600D68A95 /* MenuOptionButton.swift */; };
+		2ABF94332C04EA2600D68A95 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF94322C04EA2600D68A95 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A8A51232C03446100D4A682 /* MuscleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8A51262C03446100D4A682 /* MuscleTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleTrackerApp.swift; sourceTree = "<group>"; };
-		2A8A51282C03446100D4A682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A8A512A2C03446200D4A682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A8A512D2C03446200D4A682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A8A51342C03455900D4A682 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		2A8A51362C0346D200D4A682 /* ViewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsRow.swift; sourceTree = "<group>"; };
+		2A8A51382C03475100D4A682 /* BodyViewDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyViewDataService.swift; sourceTree = "<group>"; };
+		2A8A513A2C034A5800D4A682 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A8A513C2C034E7700D4A682 /* Muscle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muscle.swift; sourceTree = "<group>"; };
+		2A8A513E2C034EDE00D4A682 /* MuscleArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleArray.swift; sourceTree = "<group>"; };
+		2A8A51402C034F7900D4A682 /* MuscleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleDataService.swift; sourceTree = "<group>"; };
+		2A8A51422C03583100D4A682 /* MuscleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleButton.swift; sourceTree = "<group>"; };
+		2A8A51442C0362C600D4A682 /* MuscleRecoveryEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleRecoveryEditor.swift; sourceTree = "<group>"; };
+		2AA96FB42C063F67008DB628 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
+		2AA96FB62C064BB9008DB628 /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		2AA96FB92C064C9E008DB628 /* ExercisesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesRow.swift; sourceTree = "<group>"; };
+		2AA96FBB2C064CF3008DB628 /* DotDotDotButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotDotDotButton.swift; sourceTree = "<group>"; };
+		2AA96FBD2C06B281008DB628 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		2AA96FBF2C06B5E2008DB628 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		2AA96FC12C06B656008DB628 /* ExerciseDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataService.swift; sourceTree = "<group>"; };
+		2AA96FC32C06B779008DB628 /* IdentifiableIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableIndex.swift; sourceTree = "<group>"; };
+		2AAF137D2C05572500D60D4D /* MuscleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleView.swift; sourceTree = "<group>"; };
+		2AAF13882C0566D300D60D4D /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		2AAF138A2C0567FD00D60D4D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2AAF138C2C05681200D60D4D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2ABF94202C03F7C200D68A95 /* Tutorial.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tutorial.md; sourceTree = "<group>"; };
+		2ABF94212C03F82D00D68A95 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		2ABF94252C04E20500D68A95 /* WorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutButton.swift; sourceTree = "<group>"; };
+		2ABF94272C04E21200D68A95 /* ExercisesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesButton.swift; sourceTree = "<group>"; };
+		2ABF942B2C04E45900D68A95 /* InfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoButton.swift; sourceTree = "<group>"; };
+		2ABF942E2C04E81700D68A95 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2ABF94302C04E8D600D68A95 /* MenuOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionButton.swift; sourceTree = "<group>"; };
+		2ABF94322C04EA2600D68A95 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +106,13 @@
 		2A8A51252C03446100D4A682 /* MuscleTracker */ = {
 			isa = PBXGroup;
 			children = (
+				2ABF942D2C04E80600D68A95 /* Views */,
+				2ABF94242C04E1F100D68A95 /* Buttons */,
+				2ABF94232C04DBE300D68A95 /* Done */,
 				2A8A51262C03446100D4A682 /* MuscleTrackerApp.swift */,
-				2A8A51282C03446100D4A682 /* ContentView.swift */,
 				2A8A512A2C03446200D4A682 /* Assets.xcassets */,
 				2A8A512C2C03446200D4A682 /* Preview Content */,
+				2AA96FB62C064BB9008DB628 /* PlusButton.swift */,
 			);
 			path = MuscleTracker;
 			sourceTree = "<group>";
@@ -65,6 +123,63 @@
 				2A8A512D2C03446200D4A682 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA96FB82C064C71008DB628 /* ExercisesView */ = {
+			isa = PBXGroup;
+			children = (
+				2AA96FB42C063F67008DB628 /* ExercisesView.swift */,
+				2AA96FB92C064C9E008DB628 /* ExercisesRow.swift */,
+				2AA96FBB2C064CF3008DB628 /* DotDotDotButton.swift */,
+				2AA96FBD2C06B281008DB628 /* ExerciseDetailView.swift */,
+				2AA96FBF2C06B5E2008DB628 /* Exercise.swift */,
+				2AA96FC12C06B656008DB628 /* ExerciseDataService.swift */,
+				2AA96FC32C06B779008DB628 /* IdentifiableIndex.swift */,
+			);
+			path = ExercisesView;
+			sourceTree = "<group>";
+		};
+		2ABF94232C04DBE300D68A95 /* Done */ = {
+			isa = PBXGroup;
+			children = (
+				2A8A51362C0346D200D4A682 /* ViewsRow.swift */,
+				2A8A51382C03475100D4A682 /* BodyViewDataService.swift */,
+				2A8A513C2C034E7700D4A682 /* Muscle.swift */,
+				2A8A513E2C034EDE00D4A682 /* MuscleArray.swift */,
+				2A8A51402C034F7900D4A682 /* MuscleDataService.swift */,
+				2A8A51442C0362C600D4A682 /* MuscleRecoveryEditor.swift */,
+				2ABF94202C03F7C200D68A95 /* Tutorial.md */,
+				2ABF94212C03F82D00D68A95 /* TutorialView.swift */,
+				2A8A51342C03455900D4A682 /* BodyView.swift */,
+			);
+			path = Done;
+			sourceTree = "<group>";
+		};
+		2ABF94242C04E1F100D68A95 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2A8A513A2C034A5800D4A682 /* HomeView.swift */,
+				2A8A51422C03583100D4A682 /* MuscleButton.swift */,
+				2ABF94252C04E20500D68A95 /* WorkoutButton.swift */,
+				2ABF94272C04E21200D68A95 /* ExercisesButton.swift */,
+				2ABF942B2C04E45900D68A95 /* InfoButton.swift */,
+				2ABF94302C04E8D600D68A95 /* MenuOptionButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2ABF942D2C04E80600D68A95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA96FB82C064C71008DB628 /* ExercisesView */,
+				2ABF94322C04EA2600D68A95 /* BlurView.swift */,
+				2AAF137D2C05572500D60D4D /* MuscleView.swift */,
+				2ABF942E2C04E81700D68A95 /* MenuView.swift */,
+				2AAF13882C0566D300D60D4D /* StatsView.swift */,
+				2AAF138A2C0567FD00D60D4D /* SettingsView.swift */,
+				2AAF138C2C05681200D60D4D /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,8 @@
 			dependencies = (
 			);
 			name = MuscleTracker;
+			packageProductDependencies = (
+			);
 			productName = MuscleTracker;
 			productReference = 2A8A51232C03446100D4A682 /* MuscleTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +228,10 @@
 				Base,
 			);
 			mainGroup = 2A8A511A2C03446100D4A682;
+			packageReferences = (
+				2AAF137F2C0557AF00D60D4D /* XCRemoteSwiftPackageReference "SVGKit" */,
+				2AAF13922C056D7D00D60D4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2A8A51242C03446100D4A682 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +258,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8A51292C03446100D4A682 /* ContentView.swift in Sources */,
+				2AA96FBA2C064C9E008DB628 /* ExercisesRow.swift in Sources */,
+				2A8A51432C03583100D4A682 /* MuscleButton.swift in Sources */,
+				2A8A51392C03475100D4A682 /* BodyViewDataService.swift in Sources */,
+				2AA96FBE2C06B281008DB628 /* ExerciseDetailView.swift in Sources */,
+				2ABF942C2C04E45900D68A95 /* InfoButton.swift in Sources */,
+				2A8A513B2C034A5800D4A682 /* HomeView.swift in Sources */,
+				2AA96FB72C064BB9008DB628 /* PlusButton.swift in Sources */,
+				2AA96FC22C06B656008DB628 /* ExerciseDataService.swift in Sources */,
 				2A8A51272C03446100D4A682 /* MuscleTrackerApp.swift in Sources */,
+				2AAF138B2C0567FD00D60D4D /* SettingsView.swift in Sources */,
+				2ABF942F2C04E81700D68A95 /* MenuView.swift in Sources */,
+				2A8A513F2C034EDE00D4A682 /* MuscleArray.swift in Sources */,
+				2A8A513D2C034E7700D4A682 /* Muscle.swift in Sources */,
+				2ABF94262C04E20500D68A95 /* WorkoutButton.swift in Sources */,
+				2AAF137E2C05572500D60D4D /* MuscleView.swift in Sources */,
+				2ABF94312C04E8D600D68A95 /* MenuOptionButton.swift in Sources */,
+				2AA96FC42C06B77A008DB628 /* IdentifiableIndex.swift in Sources */,
+				2AA96FB52C063F67008DB628 /* ExercisesView.swift in Sources */,
+				2A8A51352C03455900D4A682 /* BodyView.swift in Sources */,
+				2AA96FC02C06B5E2008DB628 /* Exercise.swift in Sources */,
+				2ABF94282C04E21200D68A95 /* ExercisesButton.swift in Sources */,
+				2ABF94222C03F82D00D68A95 /* TutorialView.swift in Sources */,
+				2AA96FBC2C064CF3008DB628 /* DotDotDotButton.swift in Sources */,
+				2AAF13892C0566D300D60D4D /* StatsView.swift in Sources */,
+				2A8A51372C0346D200D4A682 /* ViewsRow.swift in Sources */,
+				2ABF94332C04EA2600D68A95 /* BlurView.swift in Sources */,
+				2A8A51412C034F7900D4A682 /* MuscleDataService.swift in Sources */,
+				2AAF138D2C05681200D60D4D /* ProfileView.swift in Sources */,
+				2A8A51452C0362C600D4A682 /* MuscleRecoveryEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +423,11 @@
 				DEVELOPMENT_TEAM = P7Y7269TT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +452,11 @@
 				DEVELOPMENT_TEAM = P7Y7269TT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AAF137F2C0557AF00D60D4D /* XCRemoteSwiftPackageReference "SVGKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVGKit/SVGKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		2AAF13922C056D7D00D60D4D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2A8A511B2C03446100D4A682 /* Project object */;
 }
